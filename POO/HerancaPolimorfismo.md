@@ -9,9 +9,9 @@ A classe, método e os seus atributos podem ser definidos de variadas formas dep
 - [Modificadores de Acesso de métodos e atributos:](#modificadores-de-acesso-de-m-todos-e-atributos)
 - [Comportamento](#comportamento)
 - [Modificadores de restrição de herança](#modificadores-de-restri-o-de-heran-a)
-    + [Final](#final)
-    + [Sealed](#sealed)
-    + [Non-sealed](#non-sealed)
+  + [Final](#final)
+  + [Sealed](#sealed)
+  + [Non-sealed](#non-sealed)
 
 ## Modificadores de Acesso de métodos e atributos:
 
@@ -41,7 +41,7 @@ public final Humano
 ---
 
 #### Sealed
-> Sealed é utilizado para delimitar quais classes podem herdar da classe pai, utilizando permits 
+> Sealed é utilizado para delimitar quais classes podem herdar da classe pai, utilizando permits
 
 Exemplo:
 
