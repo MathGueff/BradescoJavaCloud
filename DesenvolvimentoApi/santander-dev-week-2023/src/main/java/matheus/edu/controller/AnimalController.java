@@ -22,15 +22,4 @@ public class AnimalController {
         Animal animal = animalService.findByid(id);
         return ResponseEntity.ok(animal);
     }
-
-    @PostMapping
-    public ResponseEntity<Animal> create(@RequestBody Animal animalToCreate){
-        Animal animalCreated = animalService.create(animalToCreate);
-        //Para retornar o caminho de busca por id do novo animal criado
-        URI location = ServletUriComponentsBuilder
-                .fromCurrentRequest().path("/{id}")
-                .buildAndExpand(animalCreated.getId())
-                .toUri();
-        return ResponseEntity.created(location).body(animalCreated);
-    }
 }

@@ -16,11 +16,6 @@ public class Animal {
 
     private int idade;
 
-    @ManyToOne
-    @JoinColumn(name = "id_tutor")
-    @JsonBackReference
-    private Tutor tutor;
-
     public Long getId() {
         return id;
     }
@@ -43,13 +38,5 @@ public class Animal {
 
     public void setIdade(int idade) {
         this.idade = idade;
-    }
-
-    public Tutor getTutor() {
-        return tutor;
-    }
-
-    public void setTutor(Tutor tutor) {
-        this.tutor = tutor;
     }
 }

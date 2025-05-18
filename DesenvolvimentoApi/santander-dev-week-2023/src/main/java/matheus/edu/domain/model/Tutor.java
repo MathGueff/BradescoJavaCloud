@@ -1,6 +1,5 @@
 package matheus.edu.domain.model;
 
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 
 import java.util.List;
@@ -15,8 +14,7 @@ public class Tutor {
     @Column(nullable = false)
     private String nome;
 
-    @OneToMany(mappedBy = "tutor", cascade = CascadeType.ALL, orphanRemoval = true)
-    @JsonManagedReference
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Animal> animais;
 
     public Long getId() {
