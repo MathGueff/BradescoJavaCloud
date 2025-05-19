@@ -10,3 +10,4 @@
 > CapEx é o capital utilizado na disponibilização física do que vai ser utilizado, é comparado como comprar uma casa e seus móveis, pois é o que tem um valor alto, mas que será utilizado por um bom tempo.
 > OpEx é como as despesas que são utilizadas para manter aquilo, em Cloud, é o que é pago para manter a nuvem
 
+> Pagamento conforme o uso
