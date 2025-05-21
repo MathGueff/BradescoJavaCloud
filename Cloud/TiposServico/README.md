@@ -41,6 +41,3 @@ IasS -> controle do hardware, mais flexível
 PaaS -> aplicativos, 
 SaaS -> licenciamento, pagamento pelo software
 
-## Criação de Máquina Virtual:
-
-
