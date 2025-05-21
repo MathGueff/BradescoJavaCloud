@@ -2,6 +2,18 @@
 
 - Serviço sob demanda que fornece recursos de computação
 
+## Sumário:
+- [Máquinas virtuais](#m-quinas-virtuais)
+- [Conjuntos de Disponibilidade](#conjuntos-de-disponibilidade)
+- [Área de trabalho virtual do Azure](#-rea-de-trabalho-virtual-do-azure)
+- [Serviços de Container do Azure](#servi-os-de-container-do-azure)
+  * [Aplicativos de Container do Azure](#aplicativos-de-container-do-azure)
+  * [Serviço de Kubernetes do Azure](#servi-o-de-kubernetes-do-azure)
+- [Azure Functions](#azure-functions)
+- [Serviços de Aplicativos](#servi-os-de-aplicativos)
+    + [Rede virtual do Azure](#rede-virtual-do-azure)
+    + [Gateway de VPN](#gateway-de-vpn)
+
 ## Máquinas virtuais
 
 - Emulação de software de máquinas físicas

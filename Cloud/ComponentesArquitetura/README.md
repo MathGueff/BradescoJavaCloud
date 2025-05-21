@@ -1,6 +1,6 @@
   # Componentes de Arquitetura 
 
-  Acessos:
+  ## Sumário:
   * [Regiões](#regioes)
   * [Zonas de Disponibilidade](#zonas-de-disponibilidade)
   * [Pares de Regiões](#pares-de-regioes)
